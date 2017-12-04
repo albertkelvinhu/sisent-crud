@@ -10,7 +10,7 @@ Projek ini adalah projek untuk mata kuliah Sistem Enterprise
 
 ### Initial
 
-*Buka sebuah connection di dalam SQL Server Management Studio. Dalam hal ini, konfigurasi untuk connection dapat diubah dalam file clsKoneksi.vb, dan mengarah pada
+* Buka sebuah connection di dalam SQL Server Management Studio. Dalam hal ini, konfigurasi untuk connection dapat diubah dalam file clsKoneksi.vb, dan mengarah pada
 ```
     Public Function OpenConn() As Boolean
         Conn = New SqlConnection("Data Source=ALPHA\ITD;" _
