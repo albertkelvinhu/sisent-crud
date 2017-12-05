@@ -31,3 +31,7 @@ D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.vbproj.Genera
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda_Employee.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda_Inventory.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.List_Items.resources
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda.resources
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\CRUD.exe.config
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.UserControl1.resources
