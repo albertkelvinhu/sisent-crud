@@ -28,14 +28,15 @@ Partial Class Beranda_Employee
         Me.WindowsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 61)
+        Me.Button1.Location = New System.Drawing.Point(41, 68)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(79, 69)
+        Me.Button1.Size = New System.Drawing.Size(79, 44)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Inventory"
         Me.Button1.UseVisualStyleBackColor = True
@@ -45,7 +46,7 @@ Partial Class Beranda_Employee
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.UserToolStripMenuItem, Me.WindowsToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(570, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(409, 24)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -75,11 +76,21 @@ Partial Class Beranda_Employee
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(41, 118)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(79, 44)
+        Me.Button2.TabIndex = 2
+        Me.Button2.Text = "Finance"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Beranda_Employee
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(570, 261)
+        Me.ClientSize = New System.Drawing.Size(409, 261)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -98,4 +109,5 @@ Partial Class Beranda_Employee
     Friend WithEvents WindowsToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Button2 As Button
 End Class

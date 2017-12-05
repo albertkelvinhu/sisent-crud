@@ -22,19 +22,19 @@ Partial Class CRUD_SQL
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.Label3 = New System.Windows.Forms.Label
-        Me.Label4 = New System.Windows.Forms.Label
-        Me.txtNim = New System.Windows.Forms.TextBox
-        Me.txtAlamat = New System.Windows.Forms.TextBox
-        Me.txtNama = New System.Windows.Forms.TextBox
-        Me.txtJurusan = New System.Windows.Forms.TextBox
-        Me.btnSave = New System.Windows.Forms.Button
-        Me.btnCancel = New System.Windows.Forms.Button
-        Me.btnDelete = New System.Windows.Forms.Button
-        Me.btnExit = New System.Windows.Forms.Button
-        Me.DGV = New System.Windows.Forms.DataGridView
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.txtNim = New System.Windows.Forms.TextBox()
+        Me.txtAlamat = New System.Windows.Forms.TextBox()
+        Me.txtNama = New System.Windows.Forms.TextBox()
+        Me.txtJurusan = New System.Windows.Forms.TextBox()
+        Me.btnSave = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.btnDelete = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.DGV = New System.Windows.Forms.DataGridView()
         CType(Me.DGV, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '

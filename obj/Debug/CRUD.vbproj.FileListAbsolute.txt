@@ -30,4 +30,4 @@ D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Resources.res
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.vbproj.GenerateResource.Cache
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda_Employee.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda_Inventory.resources
-D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.List_Barang.resources
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.List_Items.resources

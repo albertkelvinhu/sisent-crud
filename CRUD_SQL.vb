@@ -85,4 +85,7 @@ Public Class CRUD_SQL
         txtNim.Enabled = False
     End Sub
 
+    Private Sub DGV_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV.CellContentClick
+
+    End Sub
 End Class
