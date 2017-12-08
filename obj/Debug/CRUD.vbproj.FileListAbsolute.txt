@@ -31,3 +31,17 @@ D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.vbproj.Genera
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda_Employee.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda_Inventory.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.List_Items.resources
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.exe
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.xml
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.pdb
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\bin\Debug\CRUD.exe.config
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\bin\Debug\CRUD.exe
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\bin\Debug\CRUD.pdb
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\bin\Debug\CRUD.xml
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.vbprojResolveAssemblyReference.cache
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.Beranda_Employee.resources
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.Beranda_Inventory.resources
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.CRUD_SQL.resources
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.List_Items.resources
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.Resources.resources
+C:\Users\Naomi Kalit\Documents\GitHub\sisent-crud\obj\Debug\CRUD.vbproj.GenerateResource.Cache

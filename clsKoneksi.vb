@@ -9,7 +9,7 @@ Public Class clsKoneksi
     Protected Dt As DataTable
 
     Public Function OpenConn() As Boolean
-        Conn = New SqlConnection("Data Source=ALPHA\ITD;" _
+        Conn = New SqlConnection("Data Source=DESKTOP-SMM3UTU;" _
                                & "Initial Catalog=DB_AKADEMIK;" _
                                & "Integrated Security=True")
         Conn.Open()
