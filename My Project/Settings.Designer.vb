@@ -53,6 +53,16 @@ Namespace My
                 Return defaultInstance
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=ALPHA\ITD;Initial Catalog=DB_AKADEMIK;Integrated Security=True")>  _
+        Public ReadOnly Property DB_AKADEMIKConnectionString() As String
+            Get
+                Return CType(Me("DB_AKADEMIKConnectionString"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

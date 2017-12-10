@@ -24,7 +24,6 @@ D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.pdb
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\CRUD.exe
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\CRUD.pdb
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\CRUD.xml
-D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.vbprojResolveAssemblyReference.cache
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.CRUD_SQL.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Resources.resources
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.vbproj.GenerateResource.Cache
@@ -35,3 +34,5 @@ D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.Beranda.resou
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\CRUD.exe.config
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\bin\Debug\Bunifu_UI_v1.5.3.dll
 D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.UserControl1.resources
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.FinanceUC.resources
+D:\KULIAH\Semester 7\SISENT\Tugas Besar\sisent-crud\obj\Debug\CRUD.InventoryUC.resources

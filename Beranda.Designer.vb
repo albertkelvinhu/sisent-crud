@@ -30,9 +30,13 @@ Partial Class Beranda
         Me.Beranda_button = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Header_panel = New System.Windows.Forms.Panel()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.InventoryUC2 = New CRUD.InventoryUC()
+        Me.InventoryUC1 = New CRUD.InventoryUC()
+        Me.UserControl11 = New CRUD.UserControl1()
         Me.Navigation_panel.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Navigation_panel
@@ -201,6 +205,7 @@ Partial Class Beranda
         '
         'Header_panel
         '
+        Me.Header_panel.BackColor = System.Drawing.Color.Salmon
         Me.Header_panel.Dock = System.Windows.Forms.DockStyle.Top
         Me.Header_panel.Location = New System.Drawing.Point(201, 0)
         Me.Header_panel.Name = "Header_panel"
@@ -209,11 +214,41 @@ Partial Class Beranda
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.InventoryUC2)
+        Me.Panel2.Controls.Add(Me.InventoryUC1)
+        Me.Panel2.Controls.Add(Me.UserControl11)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel2.Location = New System.Drawing.Point(201, 38)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(577, 405)
         Me.Panel2.TabIndex = 1
+        '
+        'InventoryUC2
+        '
+        Me.InventoryUC2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.InventoryUC2.Location = New System.Drawing.Point(0, 0)
+        Me.InventoryUC2.Name = "InventoryUC2"
+        Me.InventoryUC2.Size = New System.Drawing.Size(577, 405)
+        Me.InventoryUC2.TabIndex = 2
+        Me.InventoryUC2.Visible = False
+        '
+        'InventoryUC1
+        '
+        Me.InventoryUC1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.InventoryUC1.Location = New System.Drawing.Point(0, 0)
+        Me.InventoryUC1.Name = "InventoryUC1"
+        Me.InventoryUC1.Size = New System.Drawing.Size(577, 405)
+        Me.InventoryUC1.TabIndex = 1
+        Me.InventoryUC1.Visible = False
+        '
+        'UserControl11
+        '
+        Me.UserControl11.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.UserControl11.Location = New System.Drawing.Point(0, 0)
+        Me.UserControl11.Name = "UserControl11"
+        Me.UserControl11.Size = New System.Drawing.Size(577, 405)
+        Me.UserControl11.TabIndex = 0
+        Me.UserControl11.Visible = False
         '
         'Beranda
         '
@@ -233,6 +268,7 @@ Partial Class Beranda
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.Navigation_panel.ResumeLayout(False)
+        Me.Panel2.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -244,6 +280,9 @@ Partial Class Beranda
     Friend WithEvents Beranda_button As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents Inventory_button As Bunifu.Framework.UI.BunifuFlatButton
     Friend WithEvents Finance_button As Bunifu.Framework.UI.BunifuFlatButton
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents UserControl11 As UserControl1
+    Friend WithEvents InventoryUC1 As InventoryUC
+    Friend WithEvents InventoryUC2 As InventoryUC
 End Class

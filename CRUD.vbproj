@@ -108,6 +108,12 @@
     <Compile Include="Beranda_Inventory.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CheckInventory.Designer.vb">
+      <DependentUpon>CheckInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckInventory.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="clsKoneksi.vb" />
     <Compile Include="CRUD_SQL.Designer.vb">
       <DependentUpon>CRUD_SQL.vb</DependentUpon>
@@ -120,6 +126,23 @@
     </Compile>
     <Compile Include="Beranda.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DB_AKADEMIKDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DB_AKADEMIKDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FinanceUC.Designer.vb">
+      <DependentUpon>FinanceUC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FinanceUC.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="InventoryUC.Designer.vb">
+      <DependentUpon>InventoryUC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryUC.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="List_Items.Designer.vb">
       <DependentUpon>List_Items.vb</DependentUpon>
@@ -159,8 +182,17 @@
     <EmbeddedResource Include="Beranda_Inventory.resx">
       <DependentUpon>Beranda_Inventory.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CheckInventory.resx">
+      <DependentUpon>CheckInventory.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRUD_SQL.resx">
       <DependentUpon>CRUD_SQL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinanceUC.resx">
+      <DependentUpon>FinanceUC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryUC.resx">
+      <DependentUpon>InventoryUC.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="List_Items.resx">
       <DependentUpon>List_Items.vb</DependentUpon>
@@ -177,6 +209,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DB_AKADEMIKDataSet.xsc">
+      <DependentUpon>DB_AKADEMIKDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DB_AKADEMIKDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DB_AKADEMIKDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_AKADEMIKDataSet.xss">
+      <DependentUpon>DB_AKADEMIKDataSet.xsd</DependentUpon>
+    </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
