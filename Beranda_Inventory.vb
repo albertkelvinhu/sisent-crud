@@ -1,7 +1,7 @@
 ﻿Public Class Beranda_Inventory
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
-        List_Items.Show()
+        FormListItems.Show()
     End Sub
 
     Private Sub LoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem.Click

@@ -108,10 +108,10 @@
     <Compile Include="Beranda_Inventory.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CheckInventory.Designer.vb">
-      <DependentUpon>CheckInventory.vb</DependentUpon>
+    <Compile Include="FormCheckInventory.Designer.vb">
+      <DependentUpon>FormCheckInventory.vb</DependentUpon>
     </Compile>
-    <Compile Include="CheckInventory.vb">
+    <Compile Include="FormCheckInventory.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="clsKoneksi.vb" />
@@ -121,10 +121,10 @@
     <Compile Include="CRUD_SQL.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Beranda.Designer.vb">
-      <DependentUpon>Beranda.vb</DependentUpon>
+    <Compile Include="FormBeranda.Designer.vb">
+      <DependentUpon>FormBeranda.vb</DependentUpon>
     </Compile>
-    <Compile Include="Beranda.vb">
+    <Compile Include="FormBeranda.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DB_AKADEMIKDataSet.Designer.vb">
@@ -132,22 +132,34 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DB_AKADEMIKDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FinanceUC.Designer.vb">
-      <DependentUpon>FinanceUC.vb</DependentUpon>
+    <Compile Include="FormGoodIssue.Designer.vb">
+      <DependentUpon>FormGoodIssue.vb</DependentUpon>
     </Compile>
-    <Compile Include="FinanceUC.vb">
+    <Compile Include="FormGoodIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.vb">
+      <DependentUpon>FormLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UCFinance.Designer.vb">
+      <DependentUpon>UCFinance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UCFinance.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="InventoryUC.Designer.vb">
-      <DependentUpon>InventoryUC.vb</DependentUpon>
+    <Compile Include="UCInventory.Designer.vb">
+      <DependentUpon>UCInventory.vb</DependentUpon>
     </Compile>
-    <Compile Include="InventoryUC.vb">
+    <Compile Include="UCInventory.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="List_Items.Designer.vb">
-      <DependentUpon>List_Items.vb</DependentUpon>
+    <Compile Include="FormListItems.Designer.vb">
+      <DependentUpon>FormListItems.vb</DependentUpon>
     </Compile>
-    <Compile Include="List_Items.vb">
+    <Compile Include="FormListItems.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -165,16 +177,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="UserControl1.Designer.vb">
-      <DependentUpon>UserControl1.vb</DependentUpon>
+    <Compile Include="FormSalesOrder.Designer.vb">
+      <DependentUpon>FormSalesOrder.vb</DependentUpon>
     </Compile>
-    <Compile Include="UserControl1.vb">
+    <Compile Include="FormSalesOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.vb">
+      <DependentUpon>UC_Test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Test.vb">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Beranda.resx">
-      <DependentUpon>Beranda.vb</DependentUpon>
+    <EmbeddedResource Include="FormBeranda.resx">
+      <DependentUpon>FormBeranda.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Beranda_Employee.resx">
       <DependentUpon>Beranda_Employee.vb</DependentUpon>
@@ -182,20 +200,26 @@
     <EmbeddedResource Include="Beranda_Inventory.resx">
       <DependentUpon>Beranda_Inventory.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CheckInventory.resx">
-      <DependentUpon>CheckInventory.vb</DependentUpon>
+    <EmbeddedResource Include="FormCheckInventory.resx">
+      <DependentUpon>FormCheckInventory.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CRUD_SQL.resx">
       <DependentUpon>CRUD_SQL.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FinanceUC.resx">
-      <DependentUpon>FinanceUC.vb</DependentUpon>
+    <EmbeddedResource Include="FormGoodIssue.resx">
+      <DependentUpon>FormGoodIssue.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InventoryUC.resx">
-      <DependentUpon>InventoryUC.vb</DependentUpon>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="List_Items.resx">
-      <DependentUpon>List_Items.vb</DependentUpon>
+    <EmbeddedResource Include="UCFinance.resx">
+      <DependentUpon>UCFinance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCInventory.resx">
+      <DependentUpon>UCInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListItems.resx">
+      <DependentUpon>FormListItems.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -203,8 +227,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormSalesOrder.resx">
+      <DependentUpon>FormSalesOrder.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControl1.resx">
-      <DependentUpon>UserControl1.vb</DependentUpon>
+      <DependentUpon>UC_Test.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

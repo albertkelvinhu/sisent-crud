@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class CheckInventory
+Partial Class FormSalesOrder
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,16 +24,13 @@ Partial Class CheckInventory
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'CheckInventory
+        'SalesOrderForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(626, 261)
-        Me.ControlBox = False
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "CheckInventory"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "C"
+        Me.ClientSize = New System.Drawing.Size(582, 261)
+        Me.Name = "SalesOrderForm"
+        Me.Text = "SalesOrderForm"
         Me.ResumeLayout(False)
 
     End Sub

@@ -1,4 +1,4 @@
-﻿Public Class List_Items
+﻿Public Class FormListItems
     Dim Proses As New clsKoneksi
     Dim TblItems As DataTable
 

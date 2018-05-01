@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Beranda
+Partial Class FormBeranda
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Beranda
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Beranda))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormBeranda))
         Me.Navigation_panel = New System.Windows.Forms.Panel()
         Me.Inventory_button = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Finance_button = New Bunifu.Framework.UI.BunifuFlatButton()
@@ -32,9 +32,9 @@ Partial Class Beranda
         Me.Header_panel = New System.Windows.Forms.Panel()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.InventoryUC2 = New CRUD.InventoryUC()
-        Me.InventoryUC1 = New CRUD.InventoryUC()
+        Me.InventoryUC1 = New CRUD.UCInventory()
         Me.UserControl11 = New CRUD.UserControl1()
+        Me.UcLogin1 = New CRUD.UCLogin()
         Me.Navigation_panel.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
@@ -214,7 +214,7 @@ Partial Class Beranda
         '
         'Panel2
         '
-        Me.Panel2.Controls.Add(Me.InventoryUC2)
+        Me.Panel2.Controls.Add(Me.UcLogin1)
         Me.Panel2.Controls.Add(Me.InventoryUC1)
         Me.Panel2.Controls.Add(Me.UserControl11)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
@@ -222,15 +222,6 @@ Partial Class Beranda
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(577, 405)
         Me.Panel2.TabIndex = 1
-        '
-        'InventoryUC2
-        '
-        Me.InventoryUC2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.InventoryUC2.Location = New System.Drawing.Point(0, 0)
-        Me.InventoryUC2.Name = "InventoryUC2"
-        Me.InventoryUC2.Size = New System.Drawing.Size(577, 405)
-        Me.InventoryUC2.TabIndex = 2
-        Me.InventoryUC2.Visible = False
         '
         'InventoryUC1
         '
@@ -250,7 +241,15 @@ Partial Class Beranda
         Me.UserControl11.TabIndex = 0
         Me.UserControl11.Visible = False
         '
-        'Beranda
+        'UcLogin1
+        '
+        Me.UcLogin1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.UcLogin1.Location = New System.Drawing.Point(0, 0)
+        Me.UcLogin1.Name = "UcLogin1"
+        Me.UcLogin1.Size = New System.Drawing.Size(577, 405)
+        Me.UcLogin1.TabIndex = 2
+        '
+        'FormBeranda
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -262,7 +261,7 @@ Partial Class Beranda
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "Beranda"
+        Me.Name = "FormBeranda"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
@@ -283,6 +282,6 @@ Partial Class Beranda
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents Panel2 As Panel
     Friend WithEvents UserControl11 As UserControl1
-    Friend WithEvents InventoryUC1 As InventoryUC
-    Friend WithEvents InventoryUC2 As InventoryUC
+    Friend WithEvents InventoryUC1 As UCInventory
+    Friend WithEvents UcLogin1 As UCLogin
 End Class

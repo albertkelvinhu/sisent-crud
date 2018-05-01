@@ -1,5 +1,5 @@
 ﻿Imports Bunifu
-Public Class Beranda
+Public Class FormBeranda
     Dim bunifufb As New Bunifu.Framework.UI.BunifuFlatButton
     Dim bunifufm As Bunifu.Framework.UI.Drag = New Bunifu.Framework.UI.Drag
 
